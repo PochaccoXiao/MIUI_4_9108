@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Media</string>
+    <string name="app_label">Storan Media</string>
+    <string name="artist_label">Artis</string>
+    <string name="media_scanning_tiker_start">Pengimbas media dijalankan...</string>
+    <string name="media_scanning_tiker_end">Pengimbasan media selesai</string>
+    <string name="media_scanning_running">Pengimbasan media...</string>
+    <string name="media_scanning_running_definition">Mengimbas semua fail media pada kad SD...</string>
+    <string name="media_scanning_system">Sistem storan</string>
+    <string name="media_scanning_internal_sd">Storan USB</string>
+    <string name="media_scanning_external_sd">Kad SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

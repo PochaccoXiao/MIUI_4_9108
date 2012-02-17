@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="selected_network_detail_view"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Preference android:title="@string/preferred_networks_index" android:key="network_index" />
+        <Preference android:title="@string/preferred_networks_name" android:key="network_name" />
+        <Preference android:title="@string/preferred_networks_id" android:key="network_id" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferred_networks_act_mode" android:key="selected_network_act_mode"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <CheckBoxPreference android:title="@string/preferred_networks_act_gsm" android:key="gsm_act" />
+        <CheckBoxPreference android:title="@string/preferred_networks_act_gsm_compact" android:key="gsm_compact_act" />
+        <CheckBoxPreference android:title="@string/preferred_networks_act_utran" android:key="utran_act" />
+    </PreferenceCategory>
+</PreferenceScreen>

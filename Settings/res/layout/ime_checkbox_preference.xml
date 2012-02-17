@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ime_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0sp" android:layout_marginTop="6.0sp" android:layout_marginRight="6.0sp" android:layout_marginBottom="6.0sp" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:ellipsize="marquee" android:id="@id/ime_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/zzz_tw_secondary_text_sub" android:id="@id/ime_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/ime_title" android:layout_alignLeft="@id/ime_title" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ime_checkbox_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/ime_checkbox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

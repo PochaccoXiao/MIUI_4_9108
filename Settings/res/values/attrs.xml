@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="state_encrypted" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="text" format="string" />
+    <attr name="button" format="string" />
+    <attr name="soundType">
+        <flag name="ringtone" value="0x00000001" />
+        <flag name="notification" value="0x00000002" />
+    </attr>
+</resources>

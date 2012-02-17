@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Lalai rangkaian</item>
+        <item>Sorok nombor</item>
+        <item>Paparkan nombor</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>EVDO sahaja</item>
+        <item>CDMA tanpa EVDO</item>
+        <item>Auto CDMA/EVDO</item>
+        <item>Auto GSM/WCDMA</item>
+        <item>WCDMA sahaja</item>
+        <item>GSM Sahaja</item>
+        <item>GSM/WCDMA pilihan</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Perancis</item>
+        <item>Spanyol</item>
+        <item>Jepun</item>
+        <item>Korea</item>
+        <item>China</item>
+        <item>Hebrew</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Mod auto)</item>
+        <item>GSM Sahaja</item>
+        <item>WCDMA sahaja</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (Mod auto)</item>
+        <item>WCDMA sahaja</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (Mod auto)</item>
+        <item>GSM Sahaja</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Rumah sahaja</item>
+        <item>Automatik</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Rangkaian rumah sahaja</item>
+        <item>Rangkaian tergabung</item>
+        <item>Sebarang rangkaian</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>CDMA sahaja</item>
+        <item>EVDO sahaja</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Biasa</item>
+        <item>Panjang</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Log panggilan</item>
+        <item>Panggilan suara</item>
+        <item>Pgln video</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (Mod auto)</item>
+        <item>GSM Sahaja</item>
+        <item>WCDMA sahaja</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_launch_entries">
+        <item>Always</item>
+        <item>Idle screen</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 seconds</item>
+        <item>6 seconds</item>
+        <item>Always off</item>
+        <item>Always on</item>
+        <item>In the dark</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% battery power</item>
+        <item>30% battery power</item>
+        <item>50% battery power</item>
+        <item>70% battery power</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynamic</item>
+        <item>Standard</item>
+        <item>Movie</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Top</item>
+        <item>Middle</item>
+        <item>Bottom</item>
+    </string-array>
+</resources>
