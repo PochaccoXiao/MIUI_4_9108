@@ -1,0 +1,505 @@
+--------- beginning of /dev/log/main
+E/SYSLINKD( 1529): Entering syslink_daemon.out main function
+E/macloader( 1532): wifi.mac_addr: check_wifi_address()
+E/macloader( 1532): wifi.mac_addr: .mac.info already exist!
+E/macloader( 1532): wifi.cid_info: .cid.info already exist!
+E/SYSLINKD( 1529): MultiProc_getId remoteId: [0x2]
+E/SYSLINKD( 1529): MultiProc_getId remoteId: [0x1]
+E/SYSLINKD( 1529): MultiProc_getId procId: [0x2]
+E/DataRouter( 1525): Main entered
+E/DataRouter( 1525): Data Router: INIT+
+E/DataRouter( 1525): dr_pcsync_init
+E/DataRouter( 1525): dr_init_pcsync_ipc
+E/DataRouter( 1525): dr_pcsync_launch
+E/DataRouter( 1525): [*] dr_smd_ril_open_client sucess 354b8
+E/DataRouter( 1525): [dr_smd_ril_init] dr_smd_ril_open_client successful 
+E/DataRouter( 1525): [*] RegisterUnsolicitedHandler() successfully done 
+E/DataRouter( 1525): [dr_smd_ril_init] dr_smd_ril_register_UnSol_Hdlr successful 
+E/DataRouter( 1525): dr_pcsync_monitor
+E/DataRouter( 1525): Waiting for connection request
+E/DataRouter( 1525):  Value of server socket is 11
+E/DataRouter( 1525): [*] Connect_RILD() returns 4 retrycount 0
+--------- beginning of /dev/log/system
+E/SYSLINKD( 1529): ProcMgr_open Status [0xca11000]
+E/SYSLINKD( 1529): ProcMgr_attach status: [0x97d2000]
+E/SYSLINKD( 1529): After attach: ProcMgr_getState
+E/SYSLINKD( 1529):     state [0x97d2000]
+E/SYSLINKD( 1529): MultiProc_getId procId: [0x1]
+E/SYSLINKD( 1529): ProcMgr_open Status [0xca11000]
+E/SYSLINKD( 1529): ProcMgr_attach status: [0x97d2000]
+E/SYSLINKD( 1529): After attach: ProcMgr_getState
+E/SYSLINKD( 1529):     state [0x97d2000]
+E/SYSLINKD( 1529): SysM3 Load: loading the SysM3 image /system/ducati/Notify_MPUSYS_reroute_Test_Core0.xem3
+E/SYSLINKD( 1529): Starting ProcMgr for procID = 2
+E/SYSLINKD( 1529): AppM3 Load: loading the AppM3 image /system/ducati/base_image_app_m3.xem3
+E/AndroidRuntime( 1527): /system/csc/customer.xml ==> cannot open file
+E/AndroidRuntime( 1527): /system/csc/feature.xml ==> cannot open file
+E/Netd    ( 1523): -------- Create Direct Instance(1) -----------
+E/SYSLINKD( 1529): Starting ProcMgr for procID = 1
+E/SYSLINKD( 1529): SysM3: Creating Ducati DMM pool of size 0x10000000
+E/SYSLINKD( 1529): SharedRegion_getNumRegions = 4
+E/SYSLINKD( 1529): SharedRegion_entry #0: base = 0x40d92000 len = 0x54000 ownerProcId = 3 isValid = 1 cacheEnable = 0 cacheLineSize = 0x80 createHeap = 1 name = (null)
+E/SYSLINKD( 1529): SharedRegion_entry #1: base = 0x40de6000 len = 0xac000 ownerProcId = 3 isValid = 1 cacheEnable = 0 cacheLineSize = 0x80 createHeap = 1 name = (null)
+E/SYSLINKD( 1529): SharedRegion_entry #2: base = 0x0 len = 0x0 ownerProcId = 0 isValid = 0 cacheEnable = 1 cacheLineSize = 0x80 createHeap = 0 name = (null)
+E/SYSLINKD( 1529): SharedRegion_entry #3: base = 0x0 len = 0x0 ownerProcId = 0 isValid = 0 cacheEnable = 1 cacheLineSize = 0x80 createHeap = 0 name = (null)
+E/SYSLINKD( 1529): heapSize = 0x10100
+E/SYSLINKD( 1529): Before Memory_alloc = 0x11498
+E/SYSLINKD( 1529): Before HeapBufMP_Create: [0x40de6080]
+E/SYSLINKD( 1529): heapSize1 = 0x18100
+E/SYSLINKD( 1529): Before HeapBufMP_Create: [0x40df6180]
+E/SYSLINKD( 1529): === SysLink-IPC setup completed successfully!===
+E/SYSLINKD( 1529): ipcSetup succeeded!
+E/SYSLINKD( 1529): Create SysM3 event handler thread
+E/SYSLINKD( 1529): Create AppM3 event handler thread
+E/Zygote  ( 1527): Couldn't find preloaded-classes.
+E/DataRouter( 1525): [*] Connect_RILD() returns 4 retrycount 1
+E/libEGL  ( 1637): eglSetSwapRectangleANDROID:1919 error 3008 (EGL_BAD_DISPLAY)
+E/PowerOnSound( 1649): # int PlaySound()
+E/NexPlayerSDK( 1528): Nextreaming NexPlayerSDK Version 1.0.29.10 CHN
+E/MediaPlayerService( 1528):   MediaPlayerService::mIsAnyDrmVideoPlaying : 0
+E/SurfaceFlinger( 1637): eglSwapBuffers: EGL error 0x3008 (EGL_BAD_DISPLAY)
+E/MPLSensor( 1637): could not open the accel irq device node
+E/AKMD2   ( 1637): couldn't find 'event6' input device
+E/AKMD2   ( 1637): libkam : Unable to load settings file, using defaults.
+E/AKMD2   ( 1637): akm_disable_sensor(7)
+E/AKMD2   ( 1637): akm_disable_sensor(7)
+E/PackageManager( 1637): setPackageList() configFilename:/system/etc/enforcecopyinglibpackages.txt, packageList:[]
+E/PackageManager( 1637): There has no files. :/system/etc/enforcecopyinglibpackages.txt
+E/DataRouter( 1525): [*] Connect_RILD() returns 4 retrycount 2
+E/DataRouter( 1525): [*] Connect_RILD() returns 4 retrycount 3
+E/AlarmManagerService( 1637): android_server_AlarmManagerService_set to type=1, 1329489660.000000000
+E/Omap4ALSA( 1528): set:: toMono=0
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/OggExtractor( 1528): readNextPacket err -1004
+E/TvoutStatusObserver( 1637): HDMI status observer init 
+E/TvOut-Observer( 1637): TvOutService
+E/TvOut-Observer( 1637): TvoutSetWakeMode is called  SCREEN_ON_DEBUG
+E/TvOut-Observer( 1637): TvoutSetWakeMode setting the mode SCREEN_ON_DEBUG mode : 6
+E/AudioTrack( 1528): stop 0xb1e40
+E/AudioTrack( 1528): Stop complete
+E/AudioTrack( 1528): Audio track delete
+E/AudioTrack( 1528): stop 0xb1e40
+E/AudioTrack( 1528): Stop complete
+E/SensorManager( 1637): =======>>>Sensor Thread RUNNING <<<========
+E/lights  ( 1637): write_int failed to open /sys/class/leds/keyboard-backlight/brightness
+E/power   ( 1637): *** set_screen_state 1
+E/DataRouter( 1525): [*] Connect_RILD() returns 4 retrycount 4
+E/AndroidRuntime( 1735): FATAL EXCEPTION: main
+E/AndroidRuntime( 1735): java.lang.RuntimeException: Unable to create service com.android.systemui.statusbar.StatusBarService: java.lang.ClassCastException: android.widget.ImageView
+E/AndroidRuntime( 1735): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:1959)
+E/AndroidRuntime( 1735): 	at android.app.ActivityThread.access$2500(ActivityThread.java:117)
+E/AndroidRuntime( 1735): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:989)
+E/AndroidRuntime( 1735): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 1735): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 1735): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 1735): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1735): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 1735): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 1735): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 1735): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 1735): Caused by: java.lang.ClassCastException: android.widget.ImageView
+E/AndroidRuntime( 1735): 	at com.android.systemui.statusbar.StatusBarService.makeStatusBarView(StatusBarService.java:330)
+E/AndroidRuntime( 1735): 	at com.android.systemui.statusbar.StatusBarService.onCreate(StatusBarService.java:251)
+E/AndroidRuntime( 1735): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:1949)
+E/AndroidRuntime( 1735): 	... 10 more
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/DataRouter( 1525): [*] Connect_RILD() returns 4 retrycount 5
+E/AlarmManagerService( 1637): android_server_AlarmManagerService_set to type=3, 613.179000000
+E/NonstaticTelephonyFeature( 1752): getFeatures failed, retrying after timeout...
+E/TvoutStatusObserver( 1637):  HDMI : Release LCD Turn on control 
+E/Tethering( 1637): attempting to remove unknown iface (usb0), ignoring
+E/EncryptService( 1637):  onStorageAskPermission Begin! path=/mnt/sdcard, state=booting, m_State=none, LatestError=0
+E/EncryptService( 1637):  onStorageAskPermission End! m_State=none, nRet = -100, LatestError=0, Policy=0, Path=/mnt/sdcard
+E/action=%s( 1637): android.intent.action.BOOT_COMPLETED
+E/dalvikvm( 1800): Could not find class 'com.android.launcher2.WidgetThumbnailView', referenced from method com.android.launcher2.Launcher.setupViews
+E/AndroidRuntime( 1800): FATAL EXCEPTION: main
+E/AndroidRuntime( 1800): java.lang.VerifyError: com.android.launcher2.Launcher
+E/AndroidRuntime( 1800): 	at java.lang.Class.newInstanceImpl(Native Method)
+E/AndroidRuntime( 1800): 	at java.lang.Class.newInstance(Class.java:1409)
+E/AndroidRuntime( 1800): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1021)
+E/AndroidRuntime( 1800): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1565)
+E/AndroidRuntime( 1800): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1667)
+E/AndroidRuntime( 1800): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+E/AndroidRuntime( 1800): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:935)
+E/AndroidRuntime( 1800): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 1800): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 1800): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 1800): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1800): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 1800): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 1800): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 1800): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/NonstaticTelephonyFeature( 1752): getFeatures failed, retrying after timeout...
+E/NonstaticTelephonyFeature( 1752): getFeatures failed, retrying after timeout...
+E/DataRouter( 1525): [*] Connect_RILD() returns 4 retrycount 6
+E/DataRouter( 1525): [*] Connect_RILD()  done 
+E/DataRouter( 1525): [dr_smd_ril_init] dr_smd_ril_Connect successful 
+E/DataRouter( 1525): [dr_smd_ril_init] dr_smd_ril_Connect successful 
+E/DataRouter( 1525): [dr_smd_ril_init] successful 
+E/DataRouter( 1525): Data Routerdr_smd_ril_init Successfully done  
+E/DataRouter( 1525): this is the 1th MAR build
+E/DataRouter( 1525): +
+E/DataRouter( 1525): open_socket: channel 57
+E/DataRouter( 1525): -
+E/DataRouter( 1525): +
+E/DataRouter( 1525): Pipe Created   
+E/DataRouter( 1525): Pipe Created sucessfully  
+E/DataRouter( 1525): Pipe Created   
+E/DataRouter( 1525): Launching MassStorage Monitor Thread
+E/DataRouter( 1525): Data Router: INIT-
+E/DataRouter( 1525): __initialize_usb_ipc
+E/DataRouter( 1525): Initialise USB and start the thread 
+E/DataRouter( 1525): +
+E/DataRouter( 1525): USB Interface is open with 0x16
+E/DataRouter( 1525): USB interface is now configured for usb_fd = 0x16
+E/DataRouter( 1525): -
+E/DataRouter( 1525): THREAD LAUNCH 
+E/DataRouter( 1525): +
+E/DataRouter( 1525): +
+E/DataRouter( 1525): USB monitor thread launched, usb_fd= 0x16
+E/DataRouter( 1525): Before the while loop 
+E/DataRouter( 1525): Before the usb select 
+E/DataRouter( 1525): Before the Modem Read select 
+E/KeyguardViewMediator( 1637): Phone is boot completed. so can broadcast
+E/FastDormancy( 1752): [FD] FastDormancy Constructor No plmn
+E/Omap4ALSA( 1528): set:: realcall=off
+E/AndroidRuntime( 1946): FATAL EXCEPTION: main
+E/AndroidRuntime( 1946): java.lang.NoClassDefFoundError: miui.util.Jlog
+E/AndroidRuntime( 1946): 	at com.android.updater.receiver.DumpLogReceiver.onReceive(DumpLogReceiver.java:27)
+E/AndroidRuntime( 1946): 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:1798)
+E/AndroidRuntime( 1946): 	at android.app.ActivityThread.access$2400(ActivityThread.java:117)
+E/AndroidRuntime( 1946): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:985)
+E/AndroidRuntime( 1946): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 1946): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 1946): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 1946): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1946): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 1946): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 1946): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 1946): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/ContactsProvider( 1936): Cannot start provider
+E/ContactsProvider( 1936): android.content.res.Resources$NotFoundException: String resource ID #0x7f04000a
+E/ContactsProvider( 1936): 	at android.content.res.Resources.getText(Resources.java:221)
+E/ContactsProvider( 1936): 	at android.content.res.Resources.getString(Resources.java:274)
+E/ContactsProvider( 1936): 	at android.content.Context.getString(Context.java:183)
+E/ContactsProvider( 1936): 	at com.android.providers.contacts.ContactsDatabaseHelper.createDefaultGroups(ContactsDatabaseHelper.java:1123)
+E/ContactsProvider( 1936): 	at com.android.providers.contacts.ContactsDatabaseHelper.onCreate(ContactsDatabaseHelper.java:1107)
+E/ContactsProvider( 1936): 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:126)
+E/ContactsProvider( 1936): 	at com.android.providers.contacts.ContactsDatabaseHelper.getWritableDatabase(ContactsDatabaseHelper.java:2855)
+E/ContactsProvider( 1936): 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:187)
+E/ContactsProvider( 1936): 	at com.android.providers.contacts.LegacyApiSupport.<init>(LegacyApiSupport.java:528)
+E/ContactsProvider( 1936): 	at com.android.providers.contacts.ContactsProvider2.initialize(ContactsProvider2.java:2467)
+E/ContactsProvider( 1936): 	at com.android.providers.contacts.ContactsProvider2.onCreate(ContactsProvider2.java:2456)
+E/ContactsProvider( 1936): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:867)
+E/ContactsProvider( 1936): 	at android.app.ActivityThread.installProvider(ActivityThread.java:3562)
+E/ContactsProvider( 1936): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:3317)
+E/ContactsProvider( 1936): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:3273)
+E/ContactsProvider( 1936): 	at android.app.ActivityThread.access$2200(ActivityThread.java:117)
+E/ContactsProvider( 1936): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:973)
+E/ContactsProvider( 1936): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/ContactsProvider( 1936): 	at android.os.Looper.loop(Looper.java:130)
+E/ContactsProvider( 1936): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/ContactsProvider( 1936): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/ContactsProvider( 1936): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/ContactsProvider( 1936): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/ContactsProvider( 1936): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/ContactsProvider( 1936): 	at dalvik.system.NativeStart.main(Native Method)
+E/AudioTrack( 1637): stop 0x36aed0
+E/AudioTrack( 1637): Stop complete
+E/AlarmManagerService( 1637): android_server_AlarmManagerService_set to type=2, 26.209000000
+E/dalvikvm( 2000): Could not find class 'com.android.launcher2.WidgetThumbnailView', referenced from method com.android.launcher2.Launcher.setupViews
+E/AndroidRuntime( 2000): FATAL EXCEPTION: main
+E/AndroidRuntime( 2000): java.lang.VerifyError: com.android.launcher2.Launcher
+E/AndroidRuntime( 2000): 	at java.lang.Class.newInstanceImpl(Native Method)
+E/AndroidRuntime( 2000): 	at java.lang.Class.newInstance(Class.java:1409)
+E/AndroidRuntime( 2000): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1021)
+E/AndroidRuntime( 2000): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1565)
+E/AndroidRuntime( 2000): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1667)
+E/AndroidRuntime( 2000): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+E/AndroidRuntime( 2000): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:935)
+E/AndroidRuntime( 2000): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2000): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2000): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2000): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2000): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2000): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2000): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2000): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/gps_pal ( 1637): SIRF_PAL_COM_UART_Open Called : /dev/ttyO0    
+E/gps_pal ( 1637): UART Port Open Success fd = 226!!!!
+E/gps_pal ( 1637): rtn V O 0
+E/gps_pal ( 1637): select fail - errno = 4
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x36aed0
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/AudioTrack( 1637): stop 0x32b2b0
+E/AudioTrack( 1637): Stop complete
+E/dalvikvm( 2066): Could not find class 'com.android.launcher2.WidgetThumbnailView', referenced from method com.android.launcher2.Launcher.setupViews
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/AndroidRuntime( 2066): FATAL EXCEPTION: main
+E/AndroidRuntime( 2066): java.lang.VerifyError: com.android.launcher2.Launcher
+E/AndroidRuntime( 2066): 	at java.lang.Class.newInstanceImpl(Native Method)
+E/AndroidRuntime( 2066): 	at java.lang.Class.newInstance(Class.java:1409)
+E/AndroidRuntime( 2066): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1021)
+E/AndroidRuntime( 2066): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1565)
+E/AndroidRuntime( 2066): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1667)
+E/AndroidRuntime( 2066): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+E/AndroidRuntime( 2066): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:935)
+E/AndroidRuntime( 2066): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2066): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2066): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2066): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2066): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2066): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2066): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2066): 	at dalvik.system.NativeStart.main(Native Method)
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x32b2b0
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/AlarmManagerService( 1637): android_server_AlarmManagerService_set to type=2, 86426.405000000
+E/STKReceiver( 1752): onReceive android.intent.action.BOOT_COMPLETED
+E/AudioTrack( 1637): stop 0x3a8e50
+E/AudioTrack( 1637): Stop complete
+E/SISODRM ( 2105): Inside handlePlayreadyInit
+E/        ( 2105): This is a GSM device
+E/        ( 2105): This is a GSM device
+E/SISODRM ( 2105): Inside handlePlayreadyInit, createHDSAndCerts SUCCESS
+E/SISODRM ( 2105): [GPS Time for DRM] registerReceiever GPS_TIME_FOR_DRM
+E/AndroidRuntime( 2140): FATAL EXCEPTION: main
+E/AndroidRuntime( 2140): java.lang.NoClassDefFoundError: miui.provider.Notes
+E/AndroidRuntime( 2140): 	at com.miui.notes.ui.AlarmInitReceiver.onReceive(AlarmInitReceiver.java:26)
+E/AndroidRuntime( 2140): 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:1798)
+E/AndroidRuntime( 2140): 	at android.app.ActivityThread.access$2400(ActivityThread.java:117)
+E/AndroidRuntime( 2140): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:985)
+E/AndroidRuntime( 2140): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2140): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2140): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2140): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2140): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2140): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2140): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2140): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/MTPRx   ( 2149): In MtpReceiverandroid.intent.action.BOOT_COMPLETED
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x3a8e50
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/AudioTrack( 1637): stop 0x417c00
+E/AudioTrack( 1637): Stop complete
+E/AndroidRuntime( 1936): FATAL EXCEPTION: main
+E/AndroidRuntime( 1936): android.content.res.Resources$NotFoundException: String resource ID #0x7f04000a
+E/AndroidRuntime( 1936): 	at android.content.res.Resources.getText(Resources.java:221)
+E/AndroidRuntime( 1936): 	at android.content.res.Resources.getString(Resources.java:274)
+E/AndroidRuntime( 1936): 	at android.content.Context.getString(Context.java:183)
+E/AndroidRuntime( 1936): 	at com.android.providers.contacts.ContactsDatabaseHelper.createDefaultGroups(ContactsDatabaseHelper.java:1123)
+E/AndroidRuntime( 1936): 	at com.android.providers.contacts.ContactsDatabaseHelper.onCreate(ContactsDatabaseHelper.java:1107)
+E/AndroidRuntime( 1936): 	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java:126)
+E/AndroidRuntime( 1936): 	at com.android.providers.contacts.ContactsDatabaseHelper.getWritableDatabase(ContactsDatabaseHelper.java:2855)
+E/AndroidRuntime( 1936): 	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:187)
+E/AndroidRuntime( 1936): 	at com.android.providers.contacts.ContactsProvider2.initForDefaultLocale(ContactsProvider2.java:2703)
+E/AndroidRuntime( 1936): 	at com.android.providers.contacts.ContactsProvider2.onConfigurationChanged(ContactsProvider2.java:2714)
+E/AndroidRuntime( 1936): 	at android.app.ActivityThread.performConfigurationChanged(ActivityThread.java:2945)
+E/AndroidRuntime( 1936): 	at android.app.ActivityThread.handleConfigurationChanged(ActivityThread.java:3042)
+E/AndroidRuntime( 1936): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1008)
+E/AndroidRuntime( 1936): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 1936): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 1936): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 1936): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1936): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 1936): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 1936): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 1936): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/dalvikvm( 2184): Could not find class 'com.android.launcher2.WidgetThumbnailView', referenced from method com.android.launcher2.Launcher.setupViews
+E/AndroidRuntime( 2187): FATAL EXCEPTION: main
+E/AndroidRuntime( 2187): java.lang.RuntimeException: Unable to get provider com.android.mms.data.FestivalSmsProvider: java.lang.ClassNotFoundException: com.android.mms.data.FestivalSmsProvider in loader dalvik.system.PathClassLoader[/system/app/Mms.apk]
+E/AndroidRuntime( 2187): 	at android.app.ActivityThread.installProvider(ActivityThread.java:3565)
+E/AndroidRuntime( 2187): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:3317)
+E/AndroidRuntime( 2187): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:3273)
+E/AndroidRuntime( 2187): 	at android.app.ActivityThread.access$2200(ActivityThread.java:117)
+E/AndroidRuntime( 2187): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:973)
+E/AndroidRuntime( 2187): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2187): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2187): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2187): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2187): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2187): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2187): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2187): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2187): Caused by: java.lang.ClassNotFoundException: com.android.mms.data.FestivalSmsProvider in loader dalvik.system.PathClassLoader[/system/app/Mms.apk]
+E/AndroidRuntime( 2187): 	at dalvik.system.PathClassLoader.findClass(PathClassLoader.java:240)
+E/AndroidRuntime( 2187): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:551)
+E/AndroidRuntime( 2187): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+E/AndroidRuntime( 2187): 	at android.app.ActivityThread.installProvider(ActivityThread.java:3550)
+E/AndroidRuntime( 2187): 	... 12 more
+E/gps_pal ( 1637): SIRF_PAL_COM_UART_Close Called
+E/gps_pal ( 1637): UART Port Close result =0
+E/gps_pal ( 1637): rtn V C 0
+E/gps_pal ( 1637): select fail - errno = 4
+E/AndroidRuntime( 2184): FATAL EXCEPTION: main
+E/AndroidRuntime( 2184): java.lang.VerifyError: com.android.launcher2.Launcher
+E/AndroidRuntime( 2184): 	at java.lang.Class.newInstanceImpl(Native Method)
+E/AndroidRuntime( 2184): 	at java.lang.Class.newInstance(Class.java:1409)
+E/AndroidRuntime( 2184): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1021)
+E/AndroidRuntime( 2184): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1565)
+E/AndroidRuntime( 2184): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1667)
+E/AndroidRuntime( 2184): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+E/AndroidRuntime( 2184): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:935)
+E/AndroidRuntime( 2184): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2184): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2184): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2184): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2184): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2184): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2184): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2184): 	at dalvik.system.NativeStart.main(Native Method)
+E/GpsLocationProvider( 1637): GetMiscInterface
+E/GpsLocationProvider( 1637): android_location_GpsLocationProvider_init
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/AlarmManagerService( 1637): android_server_AlarmManagerService_set to type=0, 1329489696.800000000
+E/SetupWizardSkipReceiver( 2298): onReceive android.intent.action.BOOT_COMPLETED
+E/DftBootBroadcastReceiver( 2298): SHOULD_SHUT_DOWN_F set complete
+E/DftBootBroadcastReceiver( 2298): wrong Action : android.intent.action.BOOT_COMPLETED
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x417c00
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/AudioTrack( 1637): stop 0x2a1560
+E/AudioTrack( 1637): Stop complete
+E/dalvikvm( 2324): Could not find class 'com.android.launcher2.WidgetThumbnailView', referenced from method com.android.launcher2.Launcher.setupViews
+E/AndroidRuntime( 2324): FATAL EXCEPTION: main
+E/AndroidRuntime( 2324): java.lang.VerifyError: com.android.launcher2.Launcher
+E/AndroidRuntime( 2324): 	at java.lang.Class.newInstanceImpl(Native Method)
+E/AndroidRuntime( 2324): 	at java.lang.Class.newInstance(Class.java:1409)
+E/AndroidRuntime( 2324): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1021)
+E/AndroidRuntime( 2324): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1565)
+E/AndroidRuntime( 2324): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1667)
+E/AndroidRuntime( 2324): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+E/AndroidRuntime( 2324): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:935)
+E/AndroidRuntime( 2324): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2324): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2324): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2324): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2324): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2324): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2324): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2324): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x2a1560
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/AudioTrack( 1637): stop 0x3af888
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x3af888
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/dalvikvm( 2359): Could not find class 'com.android.launcher2.WidgetThumbnailView', referenced from method com.android.launcher2.Launcher.setupViews
+E/AndroidRuntime( 2359): FATAL EXCEPTION: main
+E/AndroidRuntime( 2359): java.lang.VerifyError: com.android.launcher2.Launcher
+E/AndroidRuntime( 2359): 	at java.lang.Class.newInstanceImpl(Native Method)
+E/AndroidRuntime( 2359): 	at java.lang.Class.newInstance(Class.java:1409)
+E/AndroidRuntime( 2359): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1021)
+E/AndroidRuntime( 2359): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1565)
+E/AndroidRuntime( 2359): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1667)
+E/AndroidRuntime( 2359): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+E/AndroidRuntime( 2359): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:935)
+E/AndroidRuntime( 2359): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2359): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2359): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2359): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2359): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2359): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2359): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2359): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/AudioTrack( 1637): stop 0x4270b0
+E/AudioTrack( 1637): Stop complete
+E/dalvikvm( 2387): Could not find class 'com.android.launcher2.WidgetThumbnailView', referenced from method com.android.launcher2.Launcher.setupViews
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x4270b0
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/AndroidRuntime( 2387): FATAL EXCEPTION: main
+E/AndroidRuntime( 2387): java.lang.VerifyError: com.android.launcher2.Launcher
+E/AndroidRuntime( 2387): 	at java.lang.Class.newInstanceImpl(Native Method)
+E/AndroidRuntime( 2387): 	at java.lang.Class.newInstance(Class.java:1409)
+E/AndroidRuntime( 2387): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1021)
+E/AndroidRuntime( 2387): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1565)
+E/AndroidRuntime( 2387): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1667)
+E/AndroidRuntime( 2387): 	at android.app.ActivityThread.access$1500(ActivityThread.java:117)
+E/AndroidRuntime( 2387): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:935)
+E/AndroidRuntime( 2387): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2387): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2387): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2387): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2387): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2387): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2387): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2387): 	at dalvik.system.NativeStart.main(Native Method)
+E/        ( 1637): Dumpstate > /data/log/dumpstate_app_error
+E/AudioTrack( 1637): stop 0x343fa8
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track delete
+E/AudioTrack( 1637): stop 0x343fa8
+E/AudioTrack( 1637): Stop complete
+E/AudioTrack( 1637): Audio track exit start
+E/AudioTrack( 1637): Audio track exit done
+E/AudioTrack( 1637): stop 0x3a6d00
+E/AudioTrack( 1637): Stop complete
+E/CscParser( 1752): update(): file not exist
+E/CscParser( 1752): update(): file not exist
+E/CscReceiver( 1752): onReceive android.intent.action.BOOT_COMPLETED
+E/CscReceiver( 1752): This is not for CSC
+E/MTPRx   ( 2149): In MtpReceiverandroid.intent.action.USER_PRESENT
+E/MTPRx   ( 2149): file kieswifi.dat is not found
+E/MTPRx   ( 2149): Battery charging. plugType = 2
+E/MTPRx   ( 2149): USB charging
+E/MTPRx   ( 2149): usb mode = 2
+E/MTPRx   ( 2149): Not in media player mode
+E/AndroidRuntime( 2451): FATAL EXCEPTION: main
+E/AndroidRuntime( 2451): java.lang.RuntimeException: Unable to get provider com.android.mms.data.FestivalSmsProvider: java.lang.ClassNotFoundException: com.android.mms.data.FestivalSmsProvider in loader dalvik.system.PathClassLoader[/system/app/Mms.apk]
+E/AndroidRuntime( 2451): 	at android.app.ActivityThread.installProvider(ActivityThread.java:3565)
+E/AndroidRuntime( 2451): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:3317)
+E/AndroidRuntime( 2451): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:3273)
+E/AndroidRuntime( 2451): 	at android.app.ActivityThread.access$2200(ActivityThread.java:117)
+E/AndroidRuntime( 2451): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:973)
+E/AndroidRuntime( 2451): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime( 2451): 	at android.os.Looper.loop(Looper.java:130)
+E/AndroidRuntime( 2451): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+E/AndroidRuntime( 2451): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 2451): 	at java.lang.reflect.Method.invoke(Method.java:507)
+E/AndroidRuntime( 2451): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+E/AndroidRuntime( 2451): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+E/AndroidRuntime( 2451): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 2451): Caused by: java.lang.ClassNotFoundException: com.android.mms.data.FestivalSmsProvider in loader dalvik.system.PathClassLoader[/system/app/Mms.apk]
+E/AndroidRuntime( 2451): 	at dalvik.system.PathClassLoader.findClass(PathClassLoader.java:240)
+E/AndroidRuntime( 2451): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:551)
+E/AndroidRuntime( 2451): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+E/AndroidRuntime( 2451): 	at android.app.ActivityThread.installProvider(ActivityThread.java:3550)
+E/AndroidRuntime( 2451): 	... 12 more
+E/MTPRx   ( 2149): In MtpReceiverandroid.intent.action.MEDIA_MOUNTED
