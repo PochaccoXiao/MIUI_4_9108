@@ -9,11 +9,11 @@ local-zip-file     := la2x7.zip
 local-out-zip-file := MIUI_9108.zip
 
 # All apps from original ZIP, but has smali files chanded
-local-modified-apps := LogsProvider Phone MediaProvider Settings
+local-modified-apps := LogsProvider Phone MediaProvider
 
 # All apks from MIUI execept MIUISystemUI and framework-miui-res.apk
 local-miui-apps     := Contacts ContactsProvider Mms TelephonyProvider ThemeManager Launcher2 \
-     DownloadProvider TelocationProvider Notes Music Torch DownloadProviderUi Updater
+     DownloadProvider TelocationProvider
 
 # All apps need to be removed from original ZIP file
 local-remove-apps   := AlipayGphone AmsComposer AndroidQQ_Samsung_Seine BuddiesNow cooldict glyder2 \
